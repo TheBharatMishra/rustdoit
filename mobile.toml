@@ -1,0 +1,5 @@
+[app]
+name = "rustdoit"
+stylized-name = "RustDoIt"
+domain = "parallelintersect.com"
+template-pack = "wry"

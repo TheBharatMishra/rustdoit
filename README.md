@@ -1,9 +1,7 @@
-# wry
+# Tauri + Svelte + Typescript
 
-## iOS
+This template should help get you started developing with Tauri, Svelte and TypeScript in Vite.
 
-Must run Xcode on rosetta. Goto Application > Right Click Xcode > Get Info > Open in Rosetta.
+## Recommended IDE Setup
 
-If you are using M1, you will have to run `cargo build --target x86_64-apple-ios` instead of `cargo apple build` if you want to run in simulator.
-
-Otherwise, it's all `cargo apple run` when running in actual device.
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).

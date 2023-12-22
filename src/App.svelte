@@ -2,38 +2,19 @@
   import Greet from './lib/Greet.svelte'
 </script>
 
-<main class="container">
-  <h1>Welcome to Tauri!</h1>
+<main class="flex flex-col justify-start items-center bg-slate-800 h-screen">
+  <h1 class="text-5xl font-bold bg-slate-600 w-full text-center text-slate-800 p-4 m-4">RUST DO IT</h1>
 
-  <div class="row">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo vite" alt="Vite Logo" />
-    </a>
-    <a href="https://tauri.app" target="_blank">
-      <img src="/tauri.svg" class="logo tauri" alt="Tauri Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank">
-      <img src="/svelte.svg" class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
+  <a class="size-48" href="https://parallelintersect.vercel.app" target="_blank">
+    <img src="/logo.svg" class="logo tauri" alt="Tauri Logo" />
+  </a>
+  <div class="size-96">
+  <p class="text-center font-semibold">we make impossible, possible.</p>
 
-  <p>
-    Click on the Tauri, Vite, and Svelte logos to learn more.
-  </p>
-
-  <div class="row">
+  <div class="">
     <Greet />
   </div>
 
 
 </main>
 
-<style>
-  .logo.vite:hover {
-    filter: drop-shadow(0 0 2em #747bff);
-  }
-
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00);
-  }
-</style>

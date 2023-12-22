@@ -11,9 +11,9 @@
 </script>
 
 <div>
-  <form class="row" on:submit|preventDefault={greet}>
-    <input id="greet-input" placeholder="Enter a name..." bind:value={name} />
-    <button type="submit">Greet</button>
+  <form class="flex flex-col" on:submit|preventDefault={greet}>
+    <input class="bg-slate-900 p-2 rounded-lg" id="greet-input" placeholder="Enter a name..." bind:value={name} />
+    <button class="bg-slate-500 p-2 rounded-lg font-semibold" type="submit">Greet</button>
   </form>
-  <p>{greetMsg}</p>
+  <p class="text-center font-semibold">{greetMsg}</p>
 </div>
